@@ -15,6 +15,7 @@ O Projeto tem como objetivo realizar uma abordagem introdutória sobre o funcion
 ## Screenshots
 [![Merge Sort](./assets/merge.png)](./assets/merge.png)
 
+[![Median of medians](./assets/median.png)](./assets/median.png)
 
 ## Instalação 
 **Linguagem**: Python<br>
