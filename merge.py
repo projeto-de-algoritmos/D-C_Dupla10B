@@ -50,7 +50,11 @@ def printList(arr):
     print()
 
 if __name__ == '__main__':
-    arr = [ 1, 2, 50, 80, 15, 23, 8, 9, 10, 12, 11, 13, 5, 6, 7, 45]
+    from random import randint
+    size = randint(5,25)
+    if size%2 == 0:
+        size += 1
+    arr = [randint(0, 100) for x in range(0,size)]
     print("", end="\n")
     print('Array fornecido: {}'.format(arr))
     mergeSort(arr)
