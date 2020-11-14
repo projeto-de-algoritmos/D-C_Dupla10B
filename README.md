@@ -16,8 +16,6 @@ O Projeto tem como objetivo realizar uma abordagem introdutória sobre o funcion
 [![Merge Sort](./assets/merge.png)](./assets/merge.png)
 
 
-[![Median of medians](./assets/median.png)](./assets/median.png)
-
 ## Instalação 
 **Linguagem**: Python<br>
 Após clonar o repositório, entrar na pasta do projeto e inserir os seguintes comandos:
