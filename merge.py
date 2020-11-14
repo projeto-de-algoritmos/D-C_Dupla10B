@@ -23,12 +23,12 @@ def mergeSort(arr):
             if L[i] < R[j]:
                 arr[k] = L[i]
                 if count == tam:
-                    print(arr[:i+j+1], '(Indíce {} do array L)'.format(i))
+                    print(arr[:i+j+1], '(Indíce {} do array Esquerdo)'.format(i))
                 i += 1
             else:
                 arr[k] = R[j]
                 if(count == tam):
-                    print(arr[:i+j+1], '(Indíce {} do array R)'.format(j))
+                    print(arr[:i+j+1], '(Indíce {} do array Direito)'.format(j))
                 j += 1
             k += 1
         while i < len(L):

@@ -10,21 +10,21 @@
 | 18/0129147  | Pedro de Miranda Haick |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O Projeto tem como objetivo realizar uma abordagem introdutória sobre o funcionamento do merge sort e mediana das medianas abordando cada passo dos algoritmos
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+[![Merge Sort](./assets/merge.png)](./assets/merge.png)
+
+
+[![Median of medians](./assets/median.png)](./assets/median.png)
 
 ## Instalação 
 **Linguagem**: Python<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+Após clonar o repositório, entrar na pasta do projeto e inserir os seguintes comandos:
+
+```python3 merge.py```
+
+```python3 median.py```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+Ao rodar os comandos anteriores ajustamos para gerar os vetores de forma aleatória
