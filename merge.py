@@ -36,14 +36,14 @@ def mergeSort(arr):
             i += 1
             k += 1
             if count == tam:
-                print(arr[:i+j], '(Indíce {} do array L)'.format(i-1))
+                print(arr[:i+j], '(Indíce {} do array Esquerdo)'.format(i-1))
 
         while j < len(R):
             arr[k] = R[j]
             j += 1
             k += 1
             if(count == tam):
-                print(arr[:i+j], '(Indíce {} do array R)'.format(j-1))
+                print(arr[:i+j], '(Indíce {} do array Direito)'.format(j-1))
 def printList(arr):
     for i in range(len(arr)):
         print(arr[i], end=" ")
